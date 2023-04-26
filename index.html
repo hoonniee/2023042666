@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>02</title>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+		/>
+		<!-- Link Swiper's CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/><link
+		rel="stylesheet"
+		href="style.css"
+	/>
+		<!-- Demo styles -->
+
+	</head>
+	<body>
+		<!-- Swiper -->
+		<div class="swiper carousel">
+			<div class="swiper-wrapper">
+				<figure class="swiper-slide">
+					<img src="./images/01.jpg" alt="" />
+					
+					<figcaption class="swiper-description">
+						<h2 style="color: rgb(229, 172, 103);">410730195 陳睿軒</h2>
+			
+						<p>
+							嗨!老師 我是教科二A的陳睿軒，我自認為我是一個比較慢熟的人，古怪的水瓶座。我的興趣是唱歌，從小唱到大，也是唯一一件沒有
+							三分鐘熱度的事。歐我也蠻喜歡設計東西的，接下來會有我做的作品~
+						</p>
+						<H2><a href="https://www.instagram.com/hoonniee">IG</a></H2>
+							
+							
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/02.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2>平面設計-海報設計</h2>
+						
+						<p>
+							這個作品事小組作業，是將大家所做設計的各類產品集結成一張大海報。其中每組都會被發到一張小拼圖，
+							要將此拼圖設計進拼圖內。
+							<BR>
+							但我就是設計得有點失敗ㄋ....
+						</p>
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/03.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2 style="color: deeppink;">平面設計-LOGO設計</h2>
+						<p>
+							此作品為老師請我們思考自己想開哪一種店，並為他設計LOGO。
+							<BR>
+							這是我為咖啡廳製作的LOGO
+						</p>
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/04.png" alt="" />
+					<figcaption class="swiper-description">
+						<h2 style="color: #413cc7;">2D動畫-角色設計</h2>
+						<p>
+							這是動畫中我設計的主角
+							<BR>
+							<H3>可愛厭世星</H3>
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			<button type="button" class="swiper-button-next"></button>
+			<button type="button" class="swiper-button-prev"></button>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			const swiper = new Swiper('.carousel', {
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev'
+				},
+				pagination: {
+					el: '.swiper-pagination'
+				}
+			})
+		</script>
+	</body>
+</html>
